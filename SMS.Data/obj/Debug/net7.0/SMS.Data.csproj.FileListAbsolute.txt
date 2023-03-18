@@ -1,0 +1,12 @@
+/home/runner/Practical-7-Onome1/SMS.Data/bin/Debug/net7.0/SMS.Data.deps.json
+/home/runner/Practical-7-Onome1/SMS.Data/bin/Debug/net7.0/SMS.Data.dll
+/home/runner/Practical-7-Onome1/SMS.Data/bin/Debug/net7.0/SMS.Data.pdb
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.csproj.AssemblyReference.cache
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.AssemblyInfoInputs.cache
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.AssemblyInfo.cs
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.csproj.CoreCompileInputs.cache
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.dll
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/refint/SMS.Data.dll
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/SMS.Data.pdb
+/home/runner/Practical-7-Onome1/SMS.Data/obj/Debug/net7.0/ref/SMS.Data.dll

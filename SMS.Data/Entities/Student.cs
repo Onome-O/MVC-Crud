@@ -7,17 +7,24 @@ public class Student
 {
     public int Id { get; set; }
 
+    [Required]
     public string Name { get; set; }
-
+  
+    [Required]
+    [EmailAddress]
     public string Email { get; set; }
-
+  
+    [Required]
     public string Course { get; set; }
-
+  
+    [Range (16,80)]
     public int Age { get; set; } 
-
+  
+    [Range (0,100)]
     public double Grade { get; set; }
-
-    public string PhotoUrl { get; set; }     
+  
+    [Required]
+    public string PhotoUrl { get; set; }      
 
     // Read-Only property - not stored in database
     public string Classification => Classify();

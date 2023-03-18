@@ -1163,11 +1163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj",
+      "projectUniqueName": "/home/runner/Practical-7-Onome1/SMS.Web/SMS.Web.csproj",
       "projectName": "SMS.Web",
-      "projectPath": "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj",
+      "projectPath": "/home/runner/Practical-7-Onome1/SMS.Web/SMS.Web.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/Practical-7/SMS.Web/obj/",
+      "outputPath": "/home/runner/Practical-7-Onome1/SMS.Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/runner/.nuget/NuGet/NuGet.Config"
@@ -1182,8 +1182,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj": {
-              "projectPath": "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj"
+            "/home/runner/Practical-7-Onome1/SMS.Data/SMS.Data.csproj": {
+              "projectPath": "/home/runner/Practical-7-Onome1/SMS.Data/SMS.Data.csproj"
             }
           }
         }

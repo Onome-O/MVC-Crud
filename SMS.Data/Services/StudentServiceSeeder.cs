@@ -26,7 +26,7 @@ public static class ServiceSeeder
             new Student { Name = "Mr Burns", Course = "Management", Email = "burns@mail.com", Age = 81, Grade = 63, PhotoUrl = "https://static.wikia.nocookie.net/simpsons/images/a/a7/Montgomery_Burns.png" 
         });
         var s6 = svc.AddStudent(
-            new Student { Name = "Barney Gumble", Course = "Brewing", Email = "barney@mail.com", Age = 39, Grade = 49 //, PhotoUrl = "https://static.wikia.nocookie.net/simpsons/images/6/68/Barney_Gumble_-_shading.png" 
+            new Student { Name = "Barney Gumble", Course = "Brewing", Email = "barney@mail.com", Age = 39, Grade = 49 , PhotoUrl = "https://static.wikia.nocookie.net/simpsons/images/6/68/Barney_Gumble_-_shading.png" 
         });
         
     }

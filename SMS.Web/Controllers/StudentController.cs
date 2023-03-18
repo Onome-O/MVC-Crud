@@ -18,10 +18,10 @@ namespace SMS.Web.Controllers
         // GET /student
         public IActionResult Index()
         {
-            // TBC - load students using service and pass to view
-           
+            // TBC - load students using service and pass to view          
+           var list = svc.GetStudents();
             
-            return View();
+            return View(list);
         }
 
         // GET /student/details/{id}
@@ -31,7 +31,10 @@ namespace SMS.Web.Controllers
             var s = svc.GetStudent(id);
 
             // TBC check if s is null and return NotFound()
-            
+            if (s is null)
+            {
+                return NotFound();
+            }
 
             // pass student as parameter to the view
             return View(s);
@@ -52,7 +55,8 @@ namespace SMS.Web.Controllers
             if (ModelState.IsValid)
             {
                 // TBC call service AddStudent method using data in s
-                
+                svc.AddStudent(s);
+              
                 return RedirectToAction(nameof(Index));
             }
             
@@ -67,7 +71,10 @@ namespace SMS.Web.Controllers
             var s = svc.GetStudent(id);
 
             // TBC check if s is null and return NotFound()
-              
+              if (s is null )
+            {
+                return NotFound();
+            }
 
             // pass student to view for editing
             return View(s);
@@ -81,7 +88,7 @@ namespace SMS.Web.Controllers
             if (ModelState.IsValid)
             {
                 // TBC pass data to service to update
-               
+               svc.UpdateStudent(s);
 
                 return RedirectToAction(nameof(Index));
             }
@@ -110,7 +117,7 @@ namespace SMS.Web.Controllers
         public IActionResult DeleteConfirm(int id)
         {
             // TBC delete student via service
-           
+            svc.DeleteStudent(id);
             
             // redirect to the index view
             return RedirectToAction(nameof(Index));

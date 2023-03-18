@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uJhJkxjVyRZdJRvsxUDx+9wAHKH1NWPkDBsjt70x7GRsFMv+M0VVhKJq3EEi8vHwSp07BermPTieStj1MYCdgg==",
+  "dgSpecHash": "GeQgQ8aS03tkep1zZOnCTRw20A4cJXClPbJwjnPuEhFUVXn+tzmF98vn8cAGn3fGZNdB0psQ7I6QHdPYAza3cw==",
   "success": true,
-  "projectFilePath": "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj",
+  "projectFilePath": "/home/runner/Practical-7-Onome1/SMS.Web/SMS.Web.csproj",
   "expectedPackageFiles": [
     "/home/runner/.nuget/packages/microsoft.data.sqlite.core/7.0.3/microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
     "/home/runner/.nuget/packages/microsoft.entityframeworkcore/7.0.3/microsoft.entityframeworkcore.7.0.3.nupkg.sha512",

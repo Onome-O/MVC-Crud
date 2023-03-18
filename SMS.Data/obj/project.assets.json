@@ -1145,11 +1145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj",
+      "projectUniqueName": "/home/runner/Practical-7-Onome1/SMS.Data/SMS.Data.csproj",
       "projectName": "SMS.Data",
-      "projectPath": "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj",
+      "projectPath": "/home/runner/Practical-7-Onome1/SMS.Data/SMS.Data.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/Practical-7/SMS.Data/obj/",
+      "outputPath": "/home/runner/Practical-7-Onome1/SMS.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/runner/.nuget/NuGet/NuGet.Config"
